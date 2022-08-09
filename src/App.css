@@ -13,7 +13,6 @@
   src: url(./assets/fonts/coolvetica\ rg.otf);
 }
 
-
 body {
   width: 100%;
   height: 100%;
@@ -102,7 +101,6 @@ body {
   font-size: 35px;
 }
 
-
 .designBy h1 {
   font-family: muli;
   font-size: 20px;
@@ -110,9 +108,7 @@ body {
 
 .day {
   font-family: day !important;
-  }
-  
-
+}
 
 :focus-visible {
   outline: -webkit-focus-ring-color auto 0px;
