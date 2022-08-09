@@ -1,0 +1,306 @@
+@font-face {
+  font-family: muli;
+  src: url(./assets/fonts/Muli-SemiBold.woff);
+}
+
+@font-face {
+  font-family: mk;
+  src: url(./assets/fonts/Bilal-d99MX.otf);
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #ececfb;
+}
+
+.box {
+  width: 300px;
+  height: 320px;
+  border-radius: 20px;
+  z-index: 9;
+  background-color: #9babfb;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 150px;
+  top: 0;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: inline-grid;
+  box-shadow: rgba(159, 173, 243, 0.67) 0px 7px 29px 0px;
+}
+
+.main {
+  width: 500px;
+  height: 100px;
+  background-color: #fafaff;
+  border-radius: 15px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  animation: fade-in-left 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+@keyframes fade-in-left {
+  0% {
+    -webkit-transform: translateX(-50px);
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.searchs input {
+  width: 260px;
+  height: 40px;
+  margin-left: 30px;
+  border: none;
+  padding-left: 20px;
+  font-family: muli;
+  font-weight: 600;
+  font-size: 16px;
+  background: none;
+  position: relative;
+}
+
+.searchs span {
+  position: absolute;
+  margin-top: 11px;
+  margin-left: 20px;
+}
+
+.searchs span img {
+  width: 23px;
+}
+.designBy {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #9e9eb9;
+}
+
+.designBy p {
+  font-family: mk;
+  font-size: 35px;
+}
+
+
+.designBy h1 {
+  font-family: muli;
+  font-size: 20px;
+}
+
+
+:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+
+.css-1ux6m6-InputComponent {
+  font-family: muli !important;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-box-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  font-size: 16px !important;
+  border: none !important;
+}
+
+.css-1sq0w1u {
+  line-height: inherit;
+  border: none;
+  margin-left: 5px;
+  background: transparent;
+  padding: 0px;
+  width: calc(9ch + 5px);
+  font-size: smaller;
+  cursor: pointer;
+  font-size: 16px !important;
+  border: none !important;
+}
+
+.css-wmy1p7-ReactDropdownSelect {
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2px 8px !important;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  direction: ltr;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  min-height: 36px;
+  color: #686975 !important;
+  pointer-events: all;
+  width: 140px !important;
+  font-family: muli !important;
+  font-size: 1rem !important;
+  height: 50px !important;
+  background: #eceffb !important;
+  border-radius: 10px !important;
+  border: none !important;
+  padding-left: 10px !important;
+}
+
+.css-16vukcu {
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2px 8px;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  direction: ltr;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  min-height: 36px;
+  color: #686975 !important;
+  pointer-events: all;
+  width: 140px !important;
+  font-family: muli !important;
+  font-size: 1rem !important;
+  height: 50px !important;
+  background: #eceffb !important;
+  border-radius: 10px !important;
+  border: none !important;
+  padding-left: 10px !important;
+}
+
+.css-fsiate-DropDown {
+  position: absolute;
+  top: 57px;
+  left: -1px;
+  border: 1px solid #ccc;
+  width: 140px;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 0 10px 0rgba (0, 0, 0, 0.2);
+  max-height: 300px;
+  overflow: auto;
+  z-index: 9;
+  border-radius: 10px !important;
+  border: none !important;
+  padding: 10px !important;
+  box-shadow: rgba(190, 190, 190, 0.67) 0px 7px 29px 0px !important;
+  padding: 10px !important;
+}
+.css-1o4oqzv {
+  position: absolute;
+  top: 57px;
+  left: -1px;
+  border: 1px solid #ccc;
+  width: 140px;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 0 10px 0rgba (0, 0, 0, 0.2);
+  max-height: 300px;
+  overflow: auto;
+  z-index: 9;
+  border-radius: 10px !important;
+  border: none !important;
+  padding: 10px !important;
+  box-shadow: rgba(190, 190, 190, 0.67) 0px 7px 29px 0px !important;
+  padding: 10px !important;
+}
+
+.css-z2hyoe-ItemComponent {
+  padding: 5px 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #fff;
+  height: 50px !important;
+  border-radius: 10px;
+  padding-top: 13px !important;
+}
+
+.css-nfp1ut {
+  padding: 5px 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #fff;
+  height: 50px !important;
+  border-radius: 10px;
+  padding-top: 13px !important;
+}
+
+.css-z2hyoe-ItemComponent:hover,
+.css-z2hyoe-ItemComponent:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background: #eceffb !important;
+}
+
+.css-nfp1ut:hover,
+.css-nfp1ut:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background: #eceffb !important;
+}
+
+.css-wmy1p7-ReactDropdownSelect:focus,
+.css-wmy1p7-ReactDropdownSelect:focus-within {
+  outline: 0;
+  box-shadow: 0 0 0 0px rgb(0 116 217 / 20%) !important;
+}
+.css-16vukcu:focus,
+.css-16vukcu:focus-within {
+  outline: 0px;
+  box-shadow: rgb(0 116 217 / 20%) 0px 0px 0px 0px !important;
+}
+
+.css-z2hyoe-ItemComponent.react-dropdown-select-item-selected {
+  background: #eceffb !important;
+  color: #686975 !important;
+  border-bottom: 1px solid #fff;
+}
+
+.css-nfp1ut.react-dropdown-select-item-selected {
+  background: #eceffb !important;
+  color: #686975 !important;
+  border-bottom: 1px solid #fff;
+}
