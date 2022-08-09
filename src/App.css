@@ -364,13 +364,16 @@ body {
     font-family: muli;
     font-size: 20px;
     color: #6a74aa;
-}
+  }
   .designBy p {
     color: #6a74aa;
     font-size: 22px !important;
   }
 
   .css-wmy1p7-ReactDropdownSelect {
-  width: 100% !important;
+    width: 100% !important;
+  }
+  .css-16vukcu {
+    width: 100% !important;
   }
 }
