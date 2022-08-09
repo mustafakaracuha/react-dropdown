@@ -11,10 +11,6 @@ export default function Dropdown() {
           <Search />
         </div>
       </div>
-      <div className="designBy">
-        <h1>By</h1>
-        <p> Mustafa Karaçuha</p>
-      </div>
     </>
   );
 }

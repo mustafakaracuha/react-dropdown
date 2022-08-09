@@ -7,7 +7,7 @@ export default function Search() {
       <span>
         <img src={searchLogo} />
       </span>
-      <input ref={ref} placeholder="Search apps, plugins and more" />
+      <input placeholder="Search apps, plugins and more" />
     </div>
   );
 }
